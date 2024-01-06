@@ -1,0 +1,102 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  width: 30px;
+  height: 30px;
+}
+
+/* Position and sizing of button inside burger button */
+.bm-burger-button button {
+  width: 30px !important;
+  height: 30px !important;
+  left: unset !important;
+  top: unset !important;
+  z-index: unset !important;
+}
+
+/* Remove outline when focus on burger button */
+.bm-burger-button button:focus {
+  outline: none;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #000;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #231f20;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 30px !important;
+  width: 30px !important;
+  right: 15px !important;
+}
+
+.bm-cross-button .bm-cross {
+  height: 25px !important;
+}
+
+/* Remove outline when focus on cross button */
+.bm-cross-button button {
+  outline: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #ff5d73;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  top: 0;
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #fff;
+  padding: 2.5rem 1.5rem 0;
+  font-size: 2rem;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #ff5d73;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #000;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Add padding to menu items */
+.bm-item-list a {
+  padding: 1rem;
+}
+
+/* Remove outline when focus on menu item */
+.bm-item-list a:focus {
+  outline: none;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

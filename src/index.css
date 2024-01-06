@@ -1,0 +1,21 @@
+@tailwind base;
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff5d73;
+}
+
+::-webkit-scrollbar-track {
+  background: #ebf8ff;
+}
+
+@tailwind components;
+@tailwind utilities;

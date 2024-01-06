@@ -1,0 +1,11 @@
+export const LANDING_PAGE = "/";
+export const ABOUT_PAGE = "/about";
+export const FIND_POOL = "/pools";
+export const HOST_POOL = "/host-pool";
+export const POOL_LISTING_FORM = "/pool-listing-form";
+export const LOGIN = "/login";
+export const REGISTER = "/register";
+export const TERMS_OF_SERVICE = "/terms-of-service";
+export const FORGOT_PASSWORD = "/forgot-password";
+export const PROFILE = "/profile";
+export const EMAIL_VERIFICATION_REDIRECT = "http://localhost:3000";

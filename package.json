@@ -1,0 +1,61 @@
+{
+  "name": "leisurpool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@hookform/resolvers": "^1.3.6",
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
+    "body-scroll-lock": "^3.1.5",
+    "firebase": "^8.3.2",
+    "joi": "^17.4.0",
+    "mapbox-gl": "^2.2.0",
+    "postcss": "^7.0.35",
+    "public-ip": "^4.0.3",
+    "query-string": "^4.3.4",
+    "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^17.0.2",
+    "react-error-boundary": "^3.1.1",
+    "react-firebase-hooks": "^3.0.3",
+    "react-hook-form": "^6.15.5",
+    "react-multiple-image-input": "^1.0.0",
+    "react-responsive-carousel": "^3.2.18",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.10.6",
+    "react-stripe-checkout": "^2.6.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4",
+    "web-vitals": "^1.1.1",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
